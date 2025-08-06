@@ -9,7 +9,7 @@ const App: React.FC = () => {
   };
   return (
     <div className="container mt-20">
-      <div className="w-full max-w-[800px] mx-auto">
+      <div className="w-full max-w-[800px] mx-auto  shadow-2xl py-10 rounded-2xl px-20">
         <TodoForm onAdd={handleTodo} />
       </div>
     </div>

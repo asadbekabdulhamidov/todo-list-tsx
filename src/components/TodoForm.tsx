@@ -30,11 +30,11 @@ const TodoForm: React.FC<TodoFormProps> = ({ onAdd }) => {
           type="text"
           placeholder="Yangi vazifa kiriting..."
           {...register('title', { required: true })}
-          className="border border-gray-300 rounded px-4 py-2 w-full"
+          className="border-2 outline-none border-gray-300 rounded px-4 py-2 w-full focus:border-blue-600 placeholder:blue-500 text-blue-700"
         />
         <button
           type="submit"
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          className="bg-blue-600 cursor-pointer text-white px-4 py-2 rounded hover:bg-blue-700"
         >
           Qo‘shish
         </button>
